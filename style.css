@@ -1,21 +1,42 @@
+.cont{
+    background-color:  hsl(212, 45%, 89%);
+    padding: 15px;
+    
+}
+
 .contenedor{
     width: 450px;
     padding: 15px;
-    margin: 5px;
+    margin: 15px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-color: black;
+    
     border-radius: 10px;
     border-width: 5px;
-    border-style: solid;
+   
     text-align: center;
+    background-color: white;
+
+   font-size: 15px;
 }
 .imagen img{
     width: 380px;
     border-radius: 10px;
 
+}
+
+@media screen and (max-width:535px) {
+    .cont{
+        padding: 0;
+    }
+    .contenedor{
+        width: 350px;
+    }    .imagen img{
+        width: 330px
+    }
+    
 }
